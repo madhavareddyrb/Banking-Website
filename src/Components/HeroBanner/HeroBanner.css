@@ -1,0 +1,60 @@
+.full-hero-banner {
+  display: flex;
+  flex-direction: row;
+  background: #ef6f1f;
+  padding: 3rem;
+}
+
+.left-side-hero-section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.grid-buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 200px;
+  gap: 10px;
+}
+
+.inside-buttons{
+  display: flex;
+  background: white;
+  padding: 10px 40px 10px 10px;
+  border-radius: 20px;
+  width: 200px;
+  gap: 10px;
+}
+
+.inside-buttons img{
+  width: 50px;
+}
+
+.left-div-heading {
+  font-size: 3.5rem;
+}
+
+.a-tag-buttons-cards {
+  padding:10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.right-side-section{
+  background: #eb661d;
+  width: 50%;
+}
+
+.search-bar{
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.voice-img{
+  color: blue;
+  width: 100px;
+}
