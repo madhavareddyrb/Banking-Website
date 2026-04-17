@@ -1,16 +1,18 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+#### Registration Form
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. registration model to save data and required fileds 
 
-## React Compiler
+2. The required fileds are first name, last name,country code ,mobile number, email,address, gender and nationality
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. create a backend api registration and save model data in DB and check full fledge api first before integrating to FE
 
-## Expanding the ESLint configuration
+4. create an form in FE for all fields required and check DB is user creating or getting error.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. After successfull registration user needs to verify email.
+
+6. After Verification we display click here to create password.
+
+7. After successfull we sent an email with password,email verfied and Account Number(generate random 11 numbers). first 6 digits are same for every user and last 5 different like that.
+
